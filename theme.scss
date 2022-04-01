@@ -1,7 +1,20 @@
-.pageBody .pageFrame .pageContent.aids[data-v-46f2f402]:after {
+/* .pageBody .pageFrame .pageContent.aids[data-v-46f2f402]:after {
     width: auto;
 }
 
 .pageBody .pageFrame .pageContent.aids[data-v-46f2f402]:before {
     width: auto;
+} */
+
+.pageBody .pageFrame .pageContent.aids.p2[data-v-46f2f402]:after, .pageBody .pageFrame .pageContent.aids.p3[data-v-46f2f402]:after, .pageBody .pageFrame .pageContent.aids.p4[data-v-46f2f402]:after, .pageBody .pageFrame .pageContent.aids.p40[data-v-46f2f402]:after {
+	background: repeating-linear-gradient(90deg,#949494,#949494 76px,rgba(255,0,0,0) 0,rgba(255,0,0,0) 152px);
+}
+
+.pageBody .pageFrame .pageContent.aids[data-v-46f2f402]:after {
+	width: 1900px;
+	background: repeating-linear-gradient(90deg,transparent,transparent 76px,#151515 0,#151515 152px);
+}
+
+.pageBody .pageFrame .pageContent.aids[data-v-46f2f402]:before {
+	width: 1900px;
 }
